@@ -11,7 +11,7 @@ import SwiftUI
 struct FindingFalconeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          SelectionView()
         }
     }
 }

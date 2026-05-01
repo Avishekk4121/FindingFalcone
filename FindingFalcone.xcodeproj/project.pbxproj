@@ -6,8 +6,33 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8C48C7492FA3F56E00E8D0E1 /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C48C7482FA3F53200E8D0E1 /* SelectionView.swift */; };
+		8C48C74F2FA3F76600E8D0E1 /* FindResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C48C74C2FA3F66C00E8D0E1 /* FindResponse.swift */; };
+		8C48C7502FA3F76600E8D0E1 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C48C74B2FA3F62B00E8D0E1 /* Vehicle.swift */; };
+		8C48C7512FA3F76600E8D0E1 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C48C74A2FA3F5EC00E8D0E1 /* Planet.swift */; };
+		8C48C7522FA3F76600E8D0E1 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C48C74D2FA3F6AD00E8D0E1 /* ApiService.swift */; };
+		8C48C7532FA3F76600E8D0E1 /* FalconeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C48C74E2FA3F74000E8D0E1 /* FalconeViewModel.swift */; };
+		8C48C7552FA3FBB600E8D0E1 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C48C7542FA3FBB300E8D0E1 /* ResultView.swift */; };
+		8C48C7572FA4000000E8D0E1 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C48C7562FA4000000E8D0E1 /* Destination.swift */; };
+		8C48C7592FA4000000E8D0E1 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C48C7582FA4000000E8D0E1 /* APIError.swift */; };
+		8C48C75B2FA4000000E8D0E1 /* FalconeAPIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C48C75A2FA4000000E8D0E1 /* FalconeAPIProtocol.swift */; };
+		8C48C75D2FA4000000E8D0E1 /* AppHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C48C75C2FA4000000E8D0E1 /* AppHeader.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		8C48C7332FA3F4D000E8D0E1 /* FindingFalcone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindingFalcone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C48C7482FA3F53200E8D0E1 /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		8C48C74A2FA3F5EC00E8D0E1 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		8C48C74B2FA3F62B00E8D0E1 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		8C48C74C2FA3F66C00E8D0E1 /* FindResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindResponse.swift; sourceTree = "<group>"; };
+		8C48C74D2FA3F6AD00E8D0E1 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		8C48C74E2FA3F74000E8D0E1 /* FalconeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalconeViewModel.swift; sourceTree = "<group>"; };
+		8C48C7542FA3FBB300E8D0E1 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		8C48C7562FA4000000E8D0E1 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		8C48C7582FA4000000E8D0E1 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		8C48C75A2FA4000000E8D0E1 /* FalconeAPIProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalconeAPIProtocol.swift; sourceTree = "<group>"; };
+		8C48C75C2FA4000000E8D0E1 /* AppHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +57,10 @@
 		8C48C72A2FA3F4D000E8D0E1 = {
 			isa = PBXGroup;
 			children = (
+				8C48C7472FA3F50A00E8D0E1 /* Model */,
+				8C48C7462FA3F4F700E8D0E1 /* Services */,
+				8C48C7452FA3F4EF00E8D0E1 /* ViewModel */,
+				8C48C7442FA3F4EA00E8D0E1 /* Views */,
 				8C48C7352FA3F4D000E8D0E1 /* FindingFalcone */,
 				8C48C7342FA3F4D000E8D0E1 /* Products */,
 			);
@@ -43,6 +72,45 @@
 				8C48C7332FA3F4D000E8D0E1 /* FindingFalcone.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8C48C7442FA3F4EA00E8D0E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C48C75C2FA4000000E8D0E1 /* AppHeader.swift */,
+				8C48C7482FA3F53200E8D0E1 /* SelectionView.swift */,
+				8C48C7542FA3FBB300E8D0E1 /* ResultView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8C48C7452FA3F4EF00E8D0E1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8C48C74E2FA3F74000E8D0E1 /* FalconeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8C48C7462FA3F4F700E8D0E1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8C48C7582FA4000000E8D0E1 /* APIError.swift */,
+				8C48C75A2FA4000000E8D0E1 /* FalconeAPIProtocol.swift */,
+				8C48C74D2FA3F6AD00E8D0E1 /* ApiService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8C48C7472FA3F50A00E8D0E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8C48C7562FA4000000E8D0E1 /* Destination.swift */,
+				8C48C74C2FA3F66C00E8D0E1 /* FindResponse.swift */,
+				8C48C74B2FA3F62B00E8D0E1 /* Vehicle.swift */,
+				8C48C74A2FA3F5EC00E8D0E1 /* Planet.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +187,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C48C74F2FA3F76600E8D0E1 /* FindResponse.swift in Sources */,
+				8C48C7502FA3F76600E8D0E1 /* Vehicle.swift in Sources */,
+				8C48C7512FA3F76600E8D0E1 /* Planet.swift in Sources */,
+				8C48C7522FA3F76600E8D0E1 /* ApiService.swift in Sources */,
+				8C48C7532FA3F76600E8D0E1 /* FalconeViewModel.swift in Sources */,
+				8C48C7552FA3FBB600E8D0E1 /* ResultView.swift in Sources */,
+				8C48C7492FA3F56E00E8D0E1 /* SelectionView.swift in Sources */,
+				8C48C7572FA4000000E8D0E1 /* Destination.swift in Sources */,
+				8C48C7592FA4000000E8D0E1 /* APIError.swift in Sources */,
+				8C48C75B2FA4000000E8D0E1 /* FalconeAPIProtocol.swift in Sources */,
+				8C48C75D2FA4000000E8D0E1 /* AppHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
